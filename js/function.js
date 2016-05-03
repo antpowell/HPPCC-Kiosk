@@ -30,6 +30,12 @@
 
         showModal();
     });
+    $('a').on('click', function(){
+        event.preventDefault();
+        redirect = $(this).attr('href');
+
+        showModal();
+    });
 
 
     //Show Modal
